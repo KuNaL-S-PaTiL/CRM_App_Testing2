@@ -21,7 +21,7 @@ public class Excel_Utility {
 	 */
 	public String getExcelData(String sheet,int rowNum,int cellNum) throws Throwable
 	{
-		FileInputStream fis = new FileInputStream("../AdvanceSeleniumPractise/src/test/resources/ExcelData2.xlsx");
+		FileInputStream fis = new FileInputStream("../AdvanceSeleniumPractise2/src/test/resources/ExcelData2.xlsx");
 		Workbook book = WorkbookFactory.create(fis);
 		 Cell data = book.getSheet(sheet).getRow(rowNum).getCell(cellNum);
 		 DataFormatter format = new DataFormatter();

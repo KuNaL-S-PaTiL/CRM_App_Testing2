@@ -14,7 +14,7 @@ public class File_Utility {
 	 */
 	public String getKeyAndValue(String key) throws Throwable
 	{
-		FileInputStream fis = new FileInputStream("../AdvanceSeleniumPractise/src/test/resources/CommonData2.properties.txt");
+		FileInputStream fis = new FileInputStream("../AdvanceSeleniumPractise2/src/test/resources/CommonData2.properties.txt");
 		Properties pro = new Properties();
 		pro.load(fis);
 		String value = pro.getProperty(key);
