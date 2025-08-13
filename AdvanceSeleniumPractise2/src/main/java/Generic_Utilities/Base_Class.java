@@ -40,11 +40,11 @@ public class Base_Class {
 		public void BC() throws Throwable
 		{
 		
-//		File_Utility flib = new File_Utility();
-//		String BROWSER = flib.getKeyAndValue("browser");
+		File_Utility flib = new File_Utility();
+		String BROWSER = flib.getKeyAndValue("browser");
 		
 		//maven/Jenkins command line...
-		String BROWSER = System.getProperty("browser");
+//		String BROWSER = System.getProperty("browser");
 
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
